@@ -1,5 +1,5 @@
 /* =========================================
-   ENTRELINHAS — JAVASCRIPT
+   ENTRELINHAS — JAVASCRIPo
    ========================================= */
 
 document.documentElement.classList.add("js");
