@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#800d10">
+  <meta name="description" content="Entrelinhas: uma música, um sentimento. Versos, encontros e memórias para guardar.">
+
+  <title>Entrelinhas — Uma música, um sentimento</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- MENU -->
+  <header class="topbar">
+
+    <a class="logo" href="#inicio">
+      entrelinhas.
+    </a>
+
+    <nav id="menu" class="menu" aria-label="Menu principal">
+      <a href="#inicio" class="active">Início</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-expanded="false"
+      aria-controls="menu"
+    >
+      ☰
+    </button>
+
+  </header>
+
+  <main>
+
+    <!-- 01 — PÁGINA INICIAL -->
+    <section id="inicio" class="hero">
+
+      <div class="luz" aria-hidden="true"></div>
+      <div class="petalas" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+
+        <h1>
+          <span class="linha"><span>uma música,</span></span>
+          <span class="linha"><em>um sentimento.</em></span>
+        </h1>
+
+        <p class="eyebrow">
+          TRANSFORME UMA CANÇÃO<br>
+          EM UM PRESENTE ESPECIAL.
+        </p>
+
+        <a class="cta" href="#dedicar">
+          dedicar uma música <span class="coracao">♡</span>
+        </a>
+
+      </div>
+
+      <img
+        src="assets/flor_menu.webp"
+        class="hero-flower"
+        alt=""
+        width="837"
+        height="746"
+      >
+
+    </section>
+
+    <!-- TRANSIÇÃO: papel rasgado entre o início e o sobre -->
+    <div class="transicao" aria-hidden="true">
+      <img src="assets/papel_rasgado.webp" class="t-papel" alt="" width="2600" height="420">
+    </div>
+
+    <!-- 02 — SOBRE -->
+    <section id="sobre" class="sobre">
+
+      <div class="notas" aria-hidden="true"></div>
+
+      <div class="sobre-inner">
+
+        <div class="sobre-texto">
+
+          <p class="eyebrow reveal">
+            — SOBRE O ENTRELINHAS
+          </p>
+
+          <h2 class="reveal" style="--d: .12s">
+            há sentimentos que
+            só a música sabe dizer.
+          </h2>
+
+          <p class="sobre-descricao reveal" style="--d: .24s">
+            A música é uma das formas mais bonitas
+            de expressar aquilo que sentimos.
+            Ela dá voz ao que, muitas vezes,
+            o coração não consegue colocar
+            em palavras.
+          </p>
+
+          <p class="sobre-descricao reveal" style="--d: .36s">
+            E se existe tanta beleza em sentir,
+            por que não compartilhar?
+          </p>
+
+          <p class="sobre-assinatura reveal" style="--d: .5s">
+            porque sentir também é compartilhar. ♡
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- 03 — ENTRE VERSOS E SENTIMENTOS -->
+    <section id="dedicar" class="dedication versos-section" aria-labelledby="versos-titulo">
+      <img src="assets/papel_borda.webp" class="dedication-borda" alt="" aria-hidden="true" width="2600" height="200">
+      <div class="versos-fagulhas" aria-hidden="true"></div>
+      <div class="versos-luz" aria-hidden="true"></div>
+      <div class="versos-vinil" aria-hidden="true">
+        <img src="assets/vinil.webp" width="450" height="450" alt="">
+      </div>
+      <div class="versos-fio fio-esquerda" aria-hidden="true">✦ &nbsp; ♪ &nbsp; ✦</div>
+      <div class="versos-fio fio-direita" aria-hidden="true">✦ &nbsp; ♫ &nbsp; ✦</div>
+      <div class="versos-conteudo">
+        <p class="versos-sobretitulo reveal">UMA COLEÇÃO DE SENTIMENTOS</p>
+        <h2 id="versos-titulo" class="versos-titulo reveal" style="--d: .1s">versos que <em>ficam.</em></h2>
+        <p class="versos-subtitulo reveal" style="--d: .18s">às vezes, uma canção encontra as palavras por nós.</p>
+        <div class="versos-papel reveal" style="--d: .27s">
+          <span class="versos-selo" aria-hidden="true">✳</span>
+          <div class="versos-abertura" aria-hidden="true">❝</div>
+          <figure id="versos-figura" class="versos-figura" aria-live="polite" aria-atomic="true">
+            <blockquote id="versos-frase" class="versos-frase">em algum lugar da memória, ainda estamos dançando.</blockquote>
+            <figcaption id="versos-credito" class="versos-credito">entrelinhas. ♡</figcaption>
+          </figure>
+          <div class="versos-arabesco" aria-hidden="true"><span></span> ♡ <span></span></div>
+        </div>
+        <button id="outro-verso" class="cta versos-botao reveal" style="--d: .35s" type="button">
+          descobrir outro verso <span class="coracao" aria-hidden="true">♡</span>
+        </button>
+        <p class="versos-rodape">um verso de cada vez, no tempo do coração.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    feito com carinho ♡ · entrelinhas.
+  </footer>
+
+</body>
+</html>

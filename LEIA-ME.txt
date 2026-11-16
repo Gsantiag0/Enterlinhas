@@ -1,0 +1,30 @@
+ENTRELINHAS — versão local para testes ♡
+
+COMO ABRIR NO VS CODE
+1. Extraia o ZIP.
+2. Abra a pasta entrelinhas_atualizado no VS Code (Arquivo > Abrir Pasta).
+3. Abra index.html usando Live Server, ou dê dois cliques em index.html para testar no navegador.
+
+O QUE FOI ALTERADO
+- Nova seção de versos no lugar do antigo formulário.
+- 30 entradas: 20 trechos curtos reais, creditados, e 10 frases originais do Entrelinhas.
+- A cada clique, sorteio sem repetições até terminar a coleção; sem contador visual.
+- Fonte maior, vinil animado, granulação de papel, luz suave, transição e partículas.
+- A flor vermelha, a seção Sobre, os reflexos holográficos, o menu e o botão inicial foram preservados.
+- O botão inicial continua indo para a terceira seção (#dedicar), como no projeto original.
+- Funciona sem backend e respeita a preferência de redução de movimento.
+
+COMO EDITAR AS FRASES
+Abra script.js e procure por "const colecaoVersos".
+Cada música tem texto, musica, artista. Cada frase original tem texto e autoral: true.
+Mantenha trechos reais e créditos corretos ao alterar a lista.
+
+IMPORTANTE SOBRE USO
+Esta versão é para teste pessoal/local. Letras de músicas têm direitos autorais;
+a identificação do intérprete não substitui a autorização dos titulares.
+Antes de distribuir/publicar o site, revise o uso de todos os trechos e as licenças.
+O arquivo flor_sobre.webp mencionado no README original não foi enviado e não é
+necessário para esta versão — a seção Sobre já funciona com os efeitos originais.
+
+Arquivos:
+index.html, style.css, script.js, ENTRELINHAS.code-workspace, assets/*.webp
